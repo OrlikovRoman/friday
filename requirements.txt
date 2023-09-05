@@ -9,4 +9,3 @@ pvrecorder
 pyowm
 keyboard
 textblob
-AppOpener
