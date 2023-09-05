@@ -1,0 +1,32 @@
+{
+    "version": "beta 0.1",
+    "language": "ru",
+    "city": "Kostroma, RU",
+    "tts": "pyttsx3",
+    "stt": "vosk_small",
+    "wake_word": "pvporcupine",
+    "assets": {
+        "models": {
+            "stt": {
+                "ru": {
+                    "vosk_small": "models/stt/vosk-model-small-ru-0.15",
+                    "pvporcupine": {
+                        "keyword": [
+                            "models/stt/пятница_ru_windows_v2_2_0.ppn"
+                        ],
+                        "model": "models/stt/porcupine_params_ru.pv"
+                    }
+                }
+            },
+            "tts": {
+                "ru": {
+                    "pyttsx3": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Speech\\Voices\\TokenEnums\\RHVoice\\Victoria"
+                }
+            }
+        },
+        "keys": {
+            "pvporcupine": "zSqxjihRE9hhxEtSfU80cNnjc7DQsEolc+AAsKHi+lXhXmwunZKtDQ==",
+            "pyowm": "432c9195280083cba32d0e05dbf90e58"
+        }
+    }
+}

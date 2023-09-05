@@ -1,0 +1,12 @@
+colorama
+numpy
+pyfiglet
+vosk
+pyttsx3
+pyaudio
+pvporcupine
+pvrecorder
+pyowm
+keyboard
+textblob
+AppOpener
