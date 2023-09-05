@@ -1,6 +1,5 @@
 import keyboard
 import os
-import AppOpener as aopen
 
 from recognition.voice import tts
 from utils import console
