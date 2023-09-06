@@ -68,7 +68,7 @@ class Assistant:
 
         # thread_1 = Thread(target=self.wait_input).start()
         # thread_2 = Thread(target=self.listen).start()
-        
+
         self.listen()
 
     def wait_input(self) -> None:
