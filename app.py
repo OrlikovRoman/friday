@@ -38,7 +38,7 @@ def logo() -> None:
 
     print(
         console.style(
-            "By @weegex",
+            "By @recvelm",
             "grey"
         )
     )
